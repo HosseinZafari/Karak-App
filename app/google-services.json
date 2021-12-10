@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604778983726",
+    "project_id": "karak-app",
+    "storage_bucket": "karak-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604778983726:android:5f59c4e5f6c17e1e2fcabf",
+        "android_client_info": {
+          "package_name": "com.hosseinzafari.github.app.karak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604778983726-pll6sojmqs4oa8t3aloeqhcpvv09td8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaWD8le1fTzMmalGnaTM7To8ivwQRS-zQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604778983726-pll6sojmqs4oa8t3aloeqhcpvv09td8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
