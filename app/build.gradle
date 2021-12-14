@@ -41,7 +41,7 @@ android {
         compose true
     }
     composeOptions {
-       // kotlinCompilerExtensionVersion compose_version
+        kotlinCompilerExtensionVersion compose_version
        // kotlinCompilerVersion '1.5.21'
     }
     packagingOptions {
@@ -96,6 +96,19 @@ dependencies {
     // firebase
     implementation platform('com.google.firebase:firebase-bom:29.0.1')
     implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.android.gms:play-services-auth:20.0.0'
+//    implementation 'com.google.firebase:firebase-auth:21.0.1'
 
+    // Splash Screen new Library
+    implementation 'androidx.core:core-splashscreen:1.0.0-alpha02'
 
+    // startup runtime for loading components at startup app
+    implementation "androidx.startup:startup-runtime:1.1.0"
+
+    // Compose ViewPager accompanist
+    implementation "com.google.accompanist:accompanist-pager:0.19.0"
+    implementation "com.google.accompanist:accompanist-pager-indicators:0.19.0"
+    implementation "com.google.accompanist:accompanist-systemuicontroller:0.21.4-beta"
 }
