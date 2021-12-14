@@ -1,4 +1,4 @@
-package com.hosseinzafari.github.app.karak.ui.theme
+package com.hosseinzafari.github.app.karak.core.presentation.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
