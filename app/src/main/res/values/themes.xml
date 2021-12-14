@@ -12,6 +12,10 @@
     <!-- Status bar color. -->
     <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     <!-- Customize your theme here. -->
+    <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowTranslucentNavigation">true</item>
+
   </style>
 
   <style name="Theme.Karak.NoActionBar">
@@ -19,6 +23,12 @@
     <item name="windowNoTitle">true</item>
   </style>
 
+
+  <style name="Theme.AppSplash" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">@color/blue_500</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_screen</item>
+    <item name="postSplashScreenTheme">@style/Theme.Karak.NoActionBar</item>
+  </style>
   <style name="Theme.Karak.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
   <style name="Theme.Karak.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
